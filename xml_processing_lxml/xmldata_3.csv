@@ -1,0 +1,14 @@
+File node,File tag,parent
+proc > summary,::auxiliary headers text file,None
+proc > summary,::title:text,::title
+proc > summary,::title:append to log,::title
+proc > summary,::check for amplitudes,None
+proc > summary,::parameters database:overwrite,parameters database
+proc > summary,::parameters database:pdb prefix,parameters database
+proc > summary,::parameters database:project name,parameters database
+proc > summary,::parameters database:line name:extract from job,parameters database
+proc > summary,::parameters database:line name:pdb name,parameters database
+proc > dataread,::input:project name,input
+proc > dataread,::input:folder:folder name,input
+proc > dataread,::input:folder:dataset name,input
+proc > dataread,::file key,None
